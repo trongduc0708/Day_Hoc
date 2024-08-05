@@ -16,13 +16,13 @@ public class bai_10 {
     public static void main(String[] args) {
         String[] MSV = new String[5];
         Scanner input = new Scanner(System.in);
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("nhap ma sv thu " + i + ":");
+        for (int i = 0; i < 5; i++) {
+            System.out.println("nhap ma sv thu " + (i+1) + ":");
             MSV[i] = input.nextLine();
         }
-        for (int i = 1; i <= 5; i++) {
+        for (int i = 0; i < 5; i++) {
             if (!MSV[i].matches("B170[1-9]{4}")) {
-                System.out.println("ma sinh vien thu: " + i + "sai dinh dang");
+                System.out.println("ma sinh vien thu: " + (i+1) + "sai dinh dang");
             }
         }
     }
