@@ -79,7 +79,6 @@ public class test
                 min = soNguyen[i];
             }
         }
-
         System.out.println("Phần tử có giá trị nhỏ nhất là: " + min);
     }
 }

@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author luong
  */
-public class bai_2_hđt {
+public class bai_2_hdt {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("nhập n: ");
